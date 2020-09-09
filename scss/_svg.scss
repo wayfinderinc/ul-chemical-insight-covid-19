@@ -1,0 +1,193 @@
+.svg__container {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.body_outline {
+
+}
+
+.inner_lung{
+	animation: breathe 2s ease-in-out infinite;
+}
+
+.inner_lung:hover {
+	transition: all 1s ease-in-out;
+}
+
+.outer_lung {
+	
+}
+
+.airway_main {
+	
+}
+
+.airway_lower_right {
+	
+
+}
+
+.airway_extra {
+	
+}
+
+.airway_lower_left {
+	
+}
+
+.airway_upper {
+	
+}
+
+
+/* PARTICLES */
+
+.outline_circle {
+	
+}
+.yellow_circle {
+	
+}
+
+.red_circle {
+	
+}
+
+.dark_green_circle {
+	
+}
+
+.light_green_circle {
+	
+}
+
+@keyframes breathe {
+	0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .1.25 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+@keyframes dash {
+	 to {
+	   stroke-dashoffset: 0;
+  	}
+}
+
+
+
+.body_outline {
+
+}
+
+.inner_lung{
+	animation: breathe 2s ease-in-out infinite;
+}
+
+.inner_lung:hover {
+	transition: all 1s ease-in-out;
+}
+
+.outer_lung {
+	
+}
+
+.airway_main {
+	
+}
+
+.airway_lower_right {
+	
+
+}
+
+.airway_extra {
+	
+}
+
+.airway_lower_left {
+	
+}
+
+.airway_upper {
+	
+}
+
+
+/* PARTICLES */
+
+.outline_circle {
+	
+}
+.yellow_circle {
+	
+}
+
+.red_circle {
+	
+}
+
+.dark_green_circle {
+	
+}
+
+.light_green_circle {
+	
+}
+
+@keyframes breathe {
+	0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .1.25 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+@keyframes dash {
+	 to {
+	   stroke-dashoffset: 0;
+  	}
+}
+
