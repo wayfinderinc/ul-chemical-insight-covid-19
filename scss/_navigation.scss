@@ -8,13 +8,14 @@ $brand-color: #41b6e6;
 header { position: fixed; width: 100%; font-size: 16px; z-index: 999999;
     @include respond-to(desktop-1280) { font-size: 16px; background: #fff; border-bottom: 1px solid rgba(0,0,0,0.1); }
     .desktop-nav { display: none; background: #fff;
-        @include respond-to(desktop-1280) { position: relative; display: flex; flex-direction: row; width: 100%; max-width: 1456px; max-width: 1920px; height: 60px; padding: 0 32px; }
-        .logo { position: relative; max-height: 42px; cursor: pointer;
+        @include respond-to(desktop-1280) { position: relative; display: flex; flex-direction: row; width: 100%; max-width: 1456px; max-width: 1920px; height: 80px; padding: 0 24px; }
+        .logo { position: relative; max-height: 56px; cursor: pointer;
             img { width: auto; max-height: 42px; }
+            p { font-size: 10px; color: #5D666B; letter-spacing: .4px; }
         }
         .primary-navigation {
-            ul { display: flex; flex-direction: row; margin: 0; padding: 0; list-style: none; font-family: "Montserrat", Arial, Helvetica, sans-serif !important; margin-left: 120px;
-                li { margin: 16px 0 0 32px; 
+            ul { display: flex; flex-direction: row; margin: 0; padding: 0; list-style: none; font-family: "Montserrat", Arial, Helvetica, sans-serif !important; margin-left: 48px;
+                li { margin: 2px 0 0 32px;
                     a { color: $body-copy-color; cursor: pointer;
                         &:link, &:visited, &:active { color: $body-copy-color; }
                         &:hover { color: $brand-color; text-decoration: none; }
@@ -23,8 +24,8 @@ header { position: fixed; width: 100%; font-size: 16px; z-index: 999999;
             }
         }
         .primary-navigation-megamenu {
-            ul { display: flex; flex-direction: row; margin: 0; padding: 0; list-style: none; font-family: "Montserrat", Arial, Helvetica, sans-serif !important; margin-left: 120px;
-                li { position: relative; margin: 16px 0 0 32px;
+            ul { display: flex; flex-direction: row; margin: 0; padding: 0; list-style: none; font-family: "Montserrat", Arial, Helvetica, sans-serif !important; margin-left: 48px;
+                li { position: relative; margin: 2px 0 0 32px;
                     a { color: $body-copy-color; cursor: pointer; padding: 12px 0;
                         &:link, &:visited, &:active { color: $body-copy-color; }
                         &:hover { color: $brand-color; text-decoration: none; }
@@ -50,7 +51,7 @@ header { position: fixed; width: 100%; font-size: 16px; z-index: 999999;
         }
         .secondary-navigation {
             ul { display: flex; flex-direction: row; margin: 0; padding: 0; list-style: none; font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
-                li { margin: 10px 0 0 20px; cursor: pointer; height: 18px; font-size: 18px; color: $body-copy-color; 
+                li { margin: -2px 0 0 20px; cursor: pointer; height: 18px; font-size: 18px; color: $body-copy-color; 
                     a { color: $body-copy-color; cursor: pointer;
                         &:link, &:visited, &:active { color: $body-copy-color; }
                         &:hover { color: $body-copy-color; }

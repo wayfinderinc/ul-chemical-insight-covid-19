@@ -1253,15 +1253,19 @@ header {
         width: 100%;
         max-width: 1456px;
         max-width: 1920px;
-        height: 60px;
-        padding: 0 32px; } }
+        height: 80px;
+        padding: 0 24px; } }
     header .desktop-nav .logo {
       position: relative;
-      max-height: 42px;
+      max-height: 56px;
       cursor: pointer; }
       header .desktop-nav .logo img {
         width: auto;
         max-height: 42px; }
+      header .desktop-nav .logo p {
+        font-size: 10px;
+        color: #5D666B;
+        letter-spacing: .4px; }
     header .desktop-nav .primary-navigation ul {
       display: flex;
       flex-direction: row;
@@ -1269,9 +1273,9 @@ header {
       padding: 0;
       list-style: none;
       font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
-      margin-left: 120px; }
+      margin-left: 48px; }
       header .desktop-nav .primary-navigation ul li {
-        margin: 16px 0 0 32px; }
+        margin: 2px 0 0 32px; }
         header .desktop-nav .primary-navigation ul li a {
           color: #5D666B;
           cursor: pointer; }
@@ -1287,10 +1291,10 @@ header {
       padding: 0;
       list-style: none;
       font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
-      margin-left: 120px; }
+      margin-left: 48px; }
       header .desktop-nav .primary-navigation-megamenu ul li {
         position: relative;
-        margin: 16px 0 0 32px; }
+        margin: 2px 0 0 32px; }
         header .desktop-nav .primary-navigation-megamenu ul li a {
           color: #5D666B;
           cursor: pointer;
@@ -1351,7 +1355,7 @@ header {
       list-style: none;
       font-family: "Montserrat", Arial, Helvetica, sans-serif !important; }
       header .desktop-nav .secondary-navigation ul li {
-        margin: 10px 0 0 20px;
+        margin: -2px 0 0 20px;
         cursor: pointer;
         height: 18px;
         font-size: 18px;
